@@ -1,0 +1,37 @@
+# Dependencias
+node_modules/
+
+# Archivos de entorno (¡NUNCA subir estos!)
+.env
+.env.local
+.env.development
+.env.production
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Carpetas de compilación
+dist/
+build/
+.out/
+.next/
+
+# Archivos de logs
+logs/
+*.log
+
+# Archivos de base de datos local
+data/
+*.sqlite
+*.db
+
+# Uploads (archivos generados)
+server/uploads/
+client/public/uploads/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
